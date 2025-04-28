@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+AR:wght@100..400&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Kumar Singh</title>
+    <style>
+        * {margin: 0;
+           padding: 0;
+
+        }
+        body{
+            background-color: #110429;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(13, 44, 44);
+            height: 80px;
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        nav ul li a:hover{
+            color: rgb(175, 175, 249);
+            font-size: 1.01rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .first-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+        .first-section > div {
+            
+            width: 30%;
+        }
+        .left-section{
+            font-size: 2rem;
+
+        }
+        .right-section img{
+            width: 80%;
+            margin: 50px 0;
+
+        }
+        .purple{
+            color: rgb(138, 25, 138);
+        }
+        .secound-section{
+            max-width: 80vw;
+            margin: auto;
+            margin: 130px;
+            height: 30vw;
+        }
+        main hr{
+            height: 1px;
+            background: #0c3e87;
+            border: 0;
+            margin: 40px 84px;
+        }
+        .secound-section h1{
+            font-size: 1.9rem;
+        }
+        .text-gray{
+            color: gray;
+        }
+        .secound-section .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;  
+        }
+        .secound-section .vertical{
+            background-color: #fff;
+            height: 93px;
+            width: 1px;
+           margin: 0 145px;
+        }
+        .image-top{
+            width: 23px;
+            position:relative;
+            top: -32px;
+            left: -9px;
+        }
+        .secound-section .vertical-title{
+            position: relative;
+            top: -40px;
+            left: -44px;
+            font-size: 0.9rem;
+        }
+        .secound-section .verticle-desc{
+            display: flex;
+            width: 500px;
+            position: relative;
+            top: 75px;
+            left: 16px;
+        }
+        
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(105, 34, 137);
+        }
+        .left-section .button{
+            padding: 50px 0;
+        }
+        .left-btn{
+            background-color: #140852;
+            padding: 10px;
+            border: #110429;
+            border-radius: 6px;
+            color: white;
+            border: 2px solid white;
+      
+            
+            
+            
+        }
+        .right-btn{
+            background-color: #140852;
+            padding: 10px;
+            border: #110429;
+            border-radius: 6px;
+            color: white;
+            border: 2px solid white;
+            
+        }
+        .secound-section ul li{
+            list-style: none;
+        }
+        .secound-section ul li img{
+            height: 30px;
+            position: relative;
+            left: -30px;
+        }
+        .verticle-desc ul li img{
+            height: 30px;
+            position: relative;
+            left: -30px;
+
+        }
+        #element{
+            color: rgb(138, 25, 138);
+        }
+
+
+
+        .third-section h1{
+            font-size: 1.9rem;
+        }
+        .third-section{
+            max-width: 80vw;
+            margin: auto;
+            margin: 130px;
+            height: 30vw;
+        }
+
+        .third-section .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;  
+        }
+        .third-section .vertical{
+            background-color: #fff;
+            height: 93px;
+            width: 1px;
+            margin: 0 190px;
+           
+        }
+        .image-top{
+            width: 23px;
+            position:relative;
+            top: -32px;
+            left: -9px;
+        }
+        .third-section .vertical-title {
+            position: relative;
+            top: -33px;
+            left: -50px;
+            width: 150px;
+}
+        .third-section .verticle-desc{
+            width: 500px;
+            position: relative;
+            top: 75px;
+        }
+        .third-section .vertical-title{
+            position: relative;
+            top: -33px;
+            left: -35px;
+            width: 150px;
+
+        }
+        .third-section .verticle-desc{
+            position: relative;
+            top:86px;
+            color: gray;
+            width: 150px;
+            font-size: 16px;
+
+        }
+        footer{
+            background-color: rgb(24, 13, 36);
+            
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            color: grey;
+            text-align: center;
+            padding: 12px 0;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="left">Mayank's Portfollio</div>
+        <div class="right"><ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+        </ul></div>
+        
+    </nav>
+</header>
+<main>
+   <section class="first-section">
+    <div class="left-section">
+        Hi my name is <span class="purple">Mayank</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+        <div class="button">
+            <button class="left-btn">Download Resume</button>
+            <button class="right-btn">LinkedIn</button>
+        </div>
+
+    </div>
+    <div class="right-section">
+        <img src="dev.png" alt="">
+    </div>
+   </section>
+   <hr>
+  
+   <section class="secound-section">
+    <span class="text-gray">Skills I acquired over time</span>
+    <h1>SKILLS</h1>
+    <div class="box">
+        <div class="vertical">
+           
+            <div class="vertical-title">LANGUAGES</div>
+            <div class="verticle-desc">
+                <ul>
+                    <li><img src="cpp.png" alt="">C/C++</li>
+                    <li> <img src="python.png" alt="">Python</li>
+                    <li><img src="js.png" alt="">JavaScript</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="vertical">
+           
+            <div class="vertical-title">FRAMEWORKS</div>
+            <div class="verticle-desc">
+                <ul>
+                    <li> <img src="48.png" alt="">React.js</li>
+                    <li><img src="ex.png" alt="">Express.js</li>
+                    <li><img src="tb.png" alt="">Tailwind</li>
+                    <li><img src="bs.png" alt="">Bootstrap</li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="vertical">
+           
+                <div class="vertical-title">DEVELOPER_TOOLS</div>
+                <div class="verticle-desc">
+                    <ul>
+                        <li><img src="git.png" alt="">Git</li>
+                        <li><img src="doc.png" alt="">Docker</li>
+                        <li><img src="lin.png" alt="">Linux</li>
+                    </ul>
+                </div>
+                </div>
+
+                <div class="vertical">
+           
+                    <div class="vertical-title">DATABASE</div>
+                    <div class="verticle-desc">
+                        <ul>
+                            <li><img src="mongo.png" alt="">MongoDB</li>
+                            <li><img src="sql.png" alt="">My SQL</li>
+                        </ul>
+                    </div>
+                    </div>
+
+
+
+
+        
+   </section>
+
+   <hr>
+
+   <section class="third-section">
+    <span class="text-gray"> The degree I earned over time</span>
+    <h1>EDUCATION</h1>
+    <div class="box">
+        <div class="vertical">
+           
+            <div class="vertical-title">GRADUATION</div>
+            <div class="verticle-desc">
+                <div>B.TECH</div>
+                <div>Trade: CSE(AI&ML)</div>
+                <div>College: KCC INSTITUTE OF TECHNOLOGY, GREATER NOIDA
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical">
+           
+            <div class="vertical-title">INTERMEDIATE</div>
+            <div class="verticle-desc">
+                <div>12TH</div>
+                <div>Subject: PCM</div>
+                <div>School: JESUS & MARY ACADEMY, DARBHANGA
+                </div>
+            </div>
+            </div>
+
+            <div class="vertical">
+           
+                <div class="vertical-title">MATRICULATION</div>
+                <div class="verticle-desc">
+                    <div>10TH</div>
+                <div>School: JESUS & MARY ACADEMY, DARBHANGA
+                </div>
+                </div>
+                </div>
+
+
+
+
+        
+   </section>
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Mayank's Developer portfolio</h3>
+        </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    
+                </ul>
+            </div>
+            
+    </div>
+    <div class="footer-rights">
+       copyright &#169; mayank's portfolio website | All right reserved
+    </div>
+
+</footer>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Software Engineer'],
+      typeSpeed: 50,
+    });
+  </script>   
+</body>
+</html>
